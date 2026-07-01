@@ -1,0 +1,227 @@
+{
+  "bookTitle": "My Story",
+  "version": 1,
+  "chapters": [
+    {
+      "id": "ch01",
+      "number": 1,
+      "title": "Welcome / About This Book",
+      "subtitle": "A short opener before the story begins.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch01_q1", "type": "text_short", "core": true, "prompt": "What would you like the title of your book to be?" },
+        { "id": "ch01_q2", "type": "text_short", "core": true, "prompt": "Who are you writing this for? (e.g. your children, grandchildren, a specific person)" },
+        { "id": "ch01_q3", "type": "text_long", "core": false, "prompt": "Write a short dedication or opening message to the reader(s)." },
+        { "id": "ch01_q4", "type": "text_long", "core": false, "prompt": "What do you hope they take away from reading your story?" },
+        { "id": "ch01_q5", "type": "photo", "core": false, "prompt": "Upload a current photo of yourself to open the book." },
+        { "id": "ch01_q6", "type": "text_long", "core": false, "prompt": "If you could only pass on one piece of advice from this whole book, what would it be? (We'll revisit this at the end too.)" }
+      ]
+    },
+    {
+      "id": "ch02",
+      "number": 2,
+      "title": "Where It All Began",
+      "subtitle": "Birth, family of origin, early roots.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch02_q1", "type": "text_short", "core": true, "prompt": "When and where were you born?" },
+        { "id": "ch02_q2", "type": "text_long", "core": true, "prompt": "Tell the story of your name — why were you named that? Any nicknames growing up?" },
+        { "id": "ch02_q3", "type": "text_long", "core": false, "prompt": "Tell me about your parents — who were they, what were they like?" },
+        { "id": "ch02_q4", "type": "text_long", "core": false, "prompt": "What do you know about your grandparents or family heritage?" },
+        { "id": "ch02_q5", "type": "text_long", "core": false, "prompt": "Where did your family come from, and how did you end up where you grew up?" },
+        { "id": "ch02_q6", "type": "photo", "core": false, "prompt": "Upload a baby photo or family photo from this time, if you have one." },
+        { "id": "ch02_q7", "type": "text_long", "core": false, "prompt": "What's a family story from before you were born that's been passed down to you?" },
+        { "id": "ch02_q8", "type": "text_long", "core": false, "prompt": "Did you have siblings? What was the birth order and dynamic like?" }
+      ]
+    },
+    {
+      "id": "ch03",
+      "number": 3,
+      "title": "Childhood",
+      "subtitle": "Home, school, friendships, memories.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch03_q1", "type": "text_long", "core": true, "prompt": "What's your earliest memory?" },
+        { "id": "ch03_q2", "type": "text_long", "core": true, "prompt": "Describe the house/home you grew up in." },
+        { "id": "ch03_q3", "type": "text_long", "core": false, "prompt": "What was your neighborhood or town like back then?" },
+        { "id": "ch03_q4", "type": "text_long", "core": false, "prompt": "Who was your best friend growing up, and what did you get up to together?" },
+        { "id": "ch03_q5", "type": "text_long", "core": false, "prompt": "What were you like as a child — shy, loud, mischievous, dreamy?" },
+        { "id": "ch03_q6", "type": "text_long", "core": false, "prompt": "Tell me about a teacher, relative, or other adult who had a big influence on you." },
+        { "id": "ch03_q7", "type": "text_long", "core": false, "prompt": "What's the most trouble you ever got into as a kid?" },
+        { "id": "ch03_q8", "type": "photo", "core": false, "prompt": "Upload a favorite childhood photo." },
+        { "id": "ch03_q9", "type": "text_short", "core": false, "prompt": "What did you want to be when you grew up?" },
+        { "id": "ch03_q10", "type": "text_long", "core": false, "prompt": "What games, shows, or toys were you obsessed with?" }
+      ]
+    },
+    {
+      "id": "ch04",
+      "number": 4,
+      "title": "The Teenage Years",
+      "subtitle": "Identity, culture, first steps toward independence.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch04_q1", "type": "text_long", "core": true, "prompt": "What were you like as a teenager?" },
+        { "id": "ch04_q2", "type": "text_long", "core": false, "prompt": "What music, fashion, or trends were \"your\" era?" },
+        { "id": "ch04_q3", "type": "text_long", "core": true, "prompt": "Tell me about your first job, however small." },
+        { "id": "ch04_q4", "type": "text_long", "core": false, "prompt": "Did you play sports, music, or have a hobby you were passionate about?" },
+        { "id": "ch04_q5", "type": "text_long", "core": false, "prompt": "What's a memory from school (good or bad) that's stuck with you?" },
+        { "id": "ch04_q6", "type": "text_long", "core": false, "prompt": "Who were your closest friends, and are you still in touch with any of them?" },
+        { "id": "ch04_q7", "type": "photo", "core": false, "prompt": "Upload a photo from your teenage years." },
+        { "id": "ch04_q8", "type": "text_short", "core": false, "prompt": "What was a rule your parents had that you hated at the time?" },
+        { "id": "ch04_q9", "type": "text_long", "core": false, "prompt": "What's something you were really proud of as a teenager?" }
+      ]
+    },
+    {
+      "id": "ch05",
+      "number": 5,
+      "title": "Becoming an Adult",
+      "subtitle": "Leaving home, early career, figuring life out.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch05_q1", "type": "text_long", "core": true, "prompt": "How and when did you leave home / become independent?" },
+        { "id": "ch05_q2", "type": "text_long", "core": true, "prompt": "What did you do after school — college, work, travel, something else?" },
+        { "id": "ch05_q3", "type": "text_long", "core": false, "prompt": "What was your first place of your own like?" },
+        { "id": "ch05_q4", "type": "text_long", "core": false, "prompt": "What was the first \"real\" job you had, and what did it teach you?" },
+        { "id": "ch05_q5", "type": "text_long", "core": false, "prompt": "What was a big decision you made in your 20s that shaped everything after?" },
+        { "id": "ch05_q6", "type": "text_long", "core": false, "prompt": "Did you travel anywhere that changed your perspective?" },
+        { "id": "ch05_q7", "type": "photo", "core": false, "prompt": "Upload a photo from this chapter of life." },
+        { "id": "ch05_q8", "type": "text_long", "core": false, "prompt": "What do you wish someone had told you at this age?" },
+        { "id": "ch05_q9", "type": "text_long", "core": false, "prompt": "What were you most afraid of back then — and how did that turn out?" }
+      ]
+    },
+    {
+      "id": "ch06",
+      "number": 6,
+      "title": "Love Story",
+      "subtitle": "Meeting a partner, dating, commitment. Skip or adapt freely if not applicable.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch06_q1", "type": "text_long", "core": true, "prompt": "How did you meet your partner?" },
+        { "id": "ch06_q2", "type": "text_long", "core": true, "prompt": "What was your first impression of them?" },
+        { "id": "ch06_q3", "type": "text_long", "core": false, "prompt": "Tell the story of your first date, or the moment you knew it was serious." },
+        { "id": "ch06_q4", "type": "text_long", "core": false, "prompt": "How did the proposal happen (if applicable)? Who proposed to whom?" },
+        { "id": "ch06_q5", "type": "text_long", "core": false, "prompt": "Tell me about your wedding day, or how you chose to commit to each other." },
+        { "id": "ch06_q6", "type": "photo", "core": false, "prompt": "Upload a photo of you two together — then or now." },
+        { "id": "ch06_q7", "type": "text_short", "core": false, "prompt": "What's something about your partner that still makes you laugh or smile?" },
+        { "id": "ch06_q8", "type": "text_long", "core": false, "prompt": "What's the secret to making a relationship last, in your experience?" },
+        { "id": "ch06_q9", "type": "text_long", "core": false, "prompt": "If this chapter doesn't apply to you, what relationships (family, friends) shaped this period instead?" }
+      ]
+    },
+    {
+      "id": "ch07",
+      "number": 7,
+      "title": "Becoming a Parent",
+      "subtitle": "Pregnancy/arrival, birth, first moments.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch07_q1", "type": "text_long", "core": true, "prompt": "How did you find out you were going to become a parent, and how did you feel?" },
+        { "id": "ch07_q2", "type": "text_long", "core": true, "prompt": "Tell the story of the day your child (or each child) was born or arrived." },
+        { "id": "ch07_q3", "type": "text_long", "core": false, "prompt": "How did you choose your child's/children's name(s)?" },
+        { "id": "ch07_q4", "type": "text_long", "core": false, "prompt": "What surprised you most about becoming a parent?" },
+        { "id": "ch07_q5", "type": "text_long", "core": false, "prompt": "What's your favorite memory from their first year?" },
+        { "id": "ch07_q6", "type": "photo", "core": false, "prompt": "Upload a photo from the early days of parenthood." },
+        { "id": "ch07_q7", "type": "text_long", "core": false, "prompt": "What were you most scared of as a new parent?" },
+        { "id": "ch07_q8", "type": "text_long", "core": false, "prompt": "Who or what helped you most in those early days?" }
+      ]
+    },
+    {
+      "id": "ch08",
+      "number": 8,
+      "title": "Watching You Grow",
+      "subtitle": "A chapter about the people who grew your family. Add one entry per person (children, grandchildren, etc).",
+      "repeatable": true,
+      "repeatableEntryLabel": "Person",
+      "entryFields": [
+        { "id": "name", "type": "text_short", "prompt": "Their name" },
+        { "id": "relationship", "type": "select", "prompt": "Relationship to you", "options": ["Daughter", "Son", "Granddaughter", "Grandson", "Other"] }
+      ],
+      "questions": [
+        { "id": "ch08_q1", "type": "text_long", "core": true, "prompt": "Describe their personality — what makes them, them?" },
+        { "id": "ch08_q2", "type": "text_long", "core": true, "prompt": "What's a memory with them that you'll never forget?" },
+        { "id": "ch08_q3", "type": "text_long", "core": false, "prompt": "What did/do they do when they were little that still makes you smile?" },
+        { "id": "ch08_q4", "type": "text_long", "core": false, "prompt": "What's a challenge you faced together, and how did you get through it?" },
+        { "id": "ch08_q5", "type": "text_long", "core": false, "prompt": "What do you most admire about them today?" },
+        { "id": "ch08_q6", "type": "photo", "core": false, "prompt": "Upload a favorite photo of you together." },
+        { "id": "ch08_q7", "type": "text_long", "core": false, "prompt": "What do you hope for their future?" },
+        { "id": "ch08_q8", "type": "text_long", "core": false, "prompt": "Is there anything you've never told them that you want them to know?" },
+        { "id": "ch08_q9", "type": "text_long", "core": false, "prompt": "What's a funny or embarrassing story about them they probably don't want in the book (but you're including anyway)?" }
+      ]
+    },
+    {
+      "id": "ch09",
+      "number": 9,
+      "title": "Family Life & Traditions",
+      "subtitle": "Everyday life, holidays, food, the texture of family.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch09_q1", "type": "text_long", "core": true, "prompt": "What family traditions matter most to you, and how did they start?" },
+        { "id": "ch09_q2", "type": "text_long", "core": false, "prompt": "Share a family recipe and the story behind it." },
+        { "id": "ch09_q3", "type": "text_long", "core": true, "prompt": "What did a normal/ordinary day look like for your family?" },
+        { "id": "ch09_q4", "type": "text_long", "core": false, "prompt": "What holidays were biggest in your house, and how did you celebrate?" },
+        { "id": "ch09_q5", "type": "text_long", "core": false, "prompt": "Did you have any family pets? Tell me about them." },
+        { "id": "ch09_q6", "type": "text_short", "core": false, "prompt": "What's a phrase or saying that gets repeated in your family?" },
+        { "id": "ch09_q7", "type": "photo", "core": false, "prompt": "Upload a photo from a family tradition or celebration." },
+        { "id": "ch09_q8", "type": "text_long", "core": false, "prompt": "What's the funniest thing that's ever happened at a family gathering?" },
+        { "id": "ch09_q9", "type": "text_long", "core": false, "prompt": "What do you hope your family keeps doing, even after you're gone?" }
+      ]
+    },
+    {
+      "id": "ch10",
+      "number": 10,
+      "title": "Work & Achievements",
+      "subtitle": "Career, effort, pride.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch10_q1", "type": "text_long", "core": true, "prompt": "What has been your main career or life's work?" },
+        { "id": "ch10_q2", "type": "text_long", "core": true, "prompt": "What achievement are you most proud of, and why?" },
+        { "id": "ch10_q3", "type": "text_long", "core": false, "prompt": "What was the hardest period of your working life, and how did you get through it?" },
+        { "id": "ch10_q4", "type": "text_long", "core": false, "prompt": "Did you ever take a big risk professionally? What happened?" },
+        { "id": "ch10_q5", "type": "text_long", "core": false, "prompt": "Who mentored or believed in you along the way?" },
+        { "id": "ch10_q6", "type": "photo", "core": false, "prompt": "Upload a photo connected to your work or an achievement." },
+        { "id": "ch10_q7", "type": "text_long", "core": false, "prompt": "What's something you accomplished that nobody really knows about?" },
+        { "id": "ch10_q8", "type": "text_long", "core": false, "prompt": "If you could go back, would you choose the same path?" }
+      ]
+    },
+    {
+      "id": "ch11",
+      "number": 11,
+      "title": "Wisdom & Reflections",
+      "subtitle": "Life lessons, regrets, hopes.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch11_q1", "type": "text_long", "core": true, "prompt": "What's the most important lesson life has taught you?" },
+        { "id": "ch11_q2", "type": "text_long", "core": true, "prompt": "What advice would you give your children about love, work, and life?" },
+        { "id": "ch11_q3", "type": "text_long", "core": false, "prompt": "What's something you regret, and what did you learn from it?" },
+        { "id": "ch11_q4", "type": "text_long", "core": false, "prompt": "What are you most grateful for?" },
+        { "id": "ch11_q5", "type": "text_long", "core": false, "prompt": "What does happiness mean to you, at this stage of life?" },
+        { "id": "ch11_q6", "type": "text_long", "core": false, "prompt": "What's a belief or value you hold that you hope gets passed down?" },
+        { "id": "ch11_q7", "type": "text_long", "core": false, "prompt": "What's something you'd want your grandchildren (current or future) to know about you?" },
+        { "id": "ch11_q8", "type": "text_long", "core": false, "prompt": "If you could relive one day of your life exactly as it happened, which would it be?" }
+      ]
+    },
+    {
+      "id": "ch12",
+      "number": 12,
+      "title": "In Your Own Words",
+      "subtitle": "Closing letter and quickfire favorites.",
+      "repeatable": false,
+      "questions": [
+        { "id": "ch12_q1", "type": "text_long", "core": true, "prompt": "Write a closing letter to the reader(s) of this book." },
+        { "id": "ch12_q2", "type": "text_long", "core": true, "prompt": "Looking back at the advice you gave in Chapter 1, has anything changed now you've finished the book?" },
+        { "id": "ch12_q3", "type": "text_short", "core": false, "prompt": "Quickfire favorites — food:" },
+        { "id": "ch12_q4", "type": "text_short", "core": false, "prompt": "Quickfire favorites — song or artist:" },
+        { "id": "ch12_q5", "type": "text_short", "core": false, "prompt": "Quickfire favorites — place you've traveled:" },
+        { "id": "ch12_q6", "type": "text_short", "core": false, "prompt": "Quickfire favorites — book or film:" },
+        { "id": "ch12_q7", "type": "text_short", "core": false, "prompt": "Quickfire favorites — memory of all:" },
+        { "id": "ch12_q8", "type": "photo", "core": false, "prompt": "Upload one last photo to close the book — anything you like." },
+        { "id": "ch12_q9", "type": "text_long", "core": false, "prompt": "Is there anything else you want to say that didn't fit anywhere else?" }
+      ]
+    }
+  ],
+  "globalFeatures": {
+    "bonusPhotosPerChapter": {
+      "enabled": true,
+      "description": "Every chapter allows unlimited additional photo+caption pairs beyond the specific photo prompts listed."
+    }
+  }
+}

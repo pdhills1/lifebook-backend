@@ -1,0 +1,21 @@
+{
+  "name": "lifebook-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the 'My Story' life book app",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^2.1.1",
+    "sharp": "^0.33.4",
+    "resend": "^3.5.0",
+    "puppeteer": "^23.0.0"
+  }
+}
