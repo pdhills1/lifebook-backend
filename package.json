@@ -1,21 +1,28 @@
 {
-  "name": "lifebook-backend",
-  "version": "1.0.0",
-  "description": "Backend API for the 'My Story' life book app",
-  "main": "src/server.js",
-  "type": "commonjs",
+  "name": "my-story-life-book",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A guided life-story writing tool: answer prompts, add photos, and get a finished PDF book.",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/*.test.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.45.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "multer": "^2.1.1",
-    "sharp": "^0.33.4",
-    "resend": "^3.5.0",
-    "puppeteer": "^23.0.0"
+    "@supabase/supabase-js": "^2.119.0",
+    "compression": "^1.8.2",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.4",
+    "fontkit": "^3.0.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.5.0",
+    "pdfkit": "^0.20.2",
+    "resend": "^6.38.1",
+    "sharp": "^0.35.5"
   }
 }
